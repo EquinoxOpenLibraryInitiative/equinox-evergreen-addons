@@ -13,6 +13,10 @@ The Toolkit includes:
 
 - `eoli_addons.make_daily_new_bibs_bucket(userid)`:
    Create a new record bucket containing recently-created bib records
+- `eoli_addons.count_row_referrers(table_name, record_id)`:
+   Count records that refer to a specific object. Comes in two versions,
+   one where the record ID is an integer and one where the record ID
+   is a string.
 
 To install, run
 
